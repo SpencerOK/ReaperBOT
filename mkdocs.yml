@@ -1,0 +1,28 @@
+
+site_name: ReaperBOT
+site_description: UCSD ECE 148 Autonomous RoboCar Project
+site_url: https://SpencerOK.github.io/ReaperBOT/
+
+repo_url: https://github.com/SpencerOK/ReaperBOT
+repo_name: SpencerOK/ReaperBOT
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
